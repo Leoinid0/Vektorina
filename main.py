@@ -69,3 +69,11 @@ if user.lower() == answers[5].lower():
   print("Правильно")
 else:
   print("Неправильно")
+
+print(questions[6])
+user = input("Ответ: ")
+if user.lower() == answers[6].lower():
+  print("Правильно")
+else:
+  print("Неправильно")
+print("Конец")
